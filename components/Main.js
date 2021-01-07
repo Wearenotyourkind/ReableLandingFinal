@@ -17,8 +17,8 @@ const Main=()=>{
                     <Row style={{display:'flex',justifyContent:'space-between'}}>
                         <Col xs={24} md={10} style={{whiteSpace:'nowrap', margin:'10vh 3vh 3vh 3vh'}}>
                             <Col>
-                                <h1 style={{fontSize:'3rem'}}>Reable</h1>
-                                <h3 style={{fontSize:'2rem'}}>
+                                <h1>Reable</h1>
+                                <h3>
                                     환경을 살리는 다회용컵 서비스<br/>
                                     이메일을 적어주시면 리에이블 서비스에<br/>
                                     대한 알림을 보내드립니다.

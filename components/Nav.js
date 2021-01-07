@@ -14,9 +14,6 @@ const fadeIn = keyframes`
 
 const Nav=()=>{
     const [show, setShow]=useState(true);
-    const [opacity, setOpacity]= useState(1);
-
-
     const Navigation = styled(Menu)`
       
       position: fixed;
@@ -34,7 +31,7 @@ const Nav=()=>{
         animation-duration: 0.5s;
         animation-name: ${fadeIn};
       `};
-      background-color: rgba(0, 0, 0, 0);
+      
       
     `;
 
@@ -45,10 +42,9 @@ const Nav=()=>{
         window.addEventListener("scroll",()=>{
             if(window.scrollY<100){
                 setShow(true);
-                setOpacity(1);
+
             }else{
                 setShow(false);
-                setOpacity(0.2);
             }
         })
         return ()=>{
@@ -58,7 +54,6 @@ const Nav=()=>{
 
     return(
         <>
-
             <Navigation mode="horizontal">
                 <Navigation.Item>
                     {show ?
