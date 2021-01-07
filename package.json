@@ -7,6 +7,16 @@
     "dev": "next",
     "build": "next build"
   },
+  "babel": {
+    "presets": [
+      "latest",
+      "react"
+    ],
+    "plugins": [
+      "babel-plugin-istanbul",
+      "transform-runtime"
+    ]
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
