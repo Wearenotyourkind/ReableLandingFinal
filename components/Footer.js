@@ -16,7 +16,7 @@ const Main=()=>{
             <ContentStyle>
                 대표번호 | 010-1111-1111<br/>
                 이메일 | email@email.com<br/>
-                주소 |숭실대학교 창신관 311호<br/>
+                주소 | 숭실대학교 창신관 311호<br/>
             </ContentStyle>
         </div>
     );
