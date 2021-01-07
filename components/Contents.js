@@ -5,6 +5,7 @@ import {Col, Row} from "antd";
 const StyledDiv=styled.div`
   border-top: 1px solid grey;
   margin: 3vh;
+  font-size:1.5rem;
 `;
 
 const StyledImg =styled.img`

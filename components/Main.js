@@ -1,6 +1,7 @@
 import React from 'react';
 import {Row,Col,Input,Button} from 'antd';
 import styled from 'styled-components';
+import EmailForm from "./EmailForm";
 
 const ContentStyle = styled.div`
   background-color: #e6e6e6;
@@ -16,8 +17,8 @@ const Main=()=>{
                     <Row style={{display:'flex',justifyContent:'space-between'}}>
                         <Col xs={24} md={10} style={{whiteSpace:'nowrap', margin:'10vh 3vh 3vh 3vh'}}>
                             <Col>
-                                <h1>Reable</h1>
-                                <h3>
+                                <h1 style={{fontSize:'3rem'}}>Reable</h1>
+                                <h3 style={{fontSize:'2rem'}}>
                                     환경을 살리는 다회용컵 서비스<br/>
                                     이메일을 적어주시면 리에이블 서비스에<br/>
                                     대한 알림을 보내드립니다.
@@ -25,8 +26,7 @@ const Main=()=>{
                             </Col>
                             <Col>
                                 <Col style={{whiteSpace:'nowrap'}}>
-                                    <Input placeholder="Email" style={{marginRight:'1vh',width:'75%'}} />
-                                    <Button type="primary">등록</Button>
+                                    <EmailForm/>
                                 </Col>
                             </Col>
                             <Col>
