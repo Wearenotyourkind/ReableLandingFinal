@@ -5,7 +5,7 @@ import {Menu} from "antd";
 
 const fadeIn = keyframes`
   0%{
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0,0,0, 0);
   }
   100% {
     background-color: #b3d1ff;
@@ -18,7 +18,7 @@ const Nav=()=>{
 
 
     const Navigation = styled(Menu)`
-      background-color: rgba(0, 0, 0, 0);
+      
       position: fixed;
       top:0;
       width:100%;
@@ -28,11 +28,14 @@ const Nav=()=>{
       height:8vh;
       display: flex;
       
+      
       ${!show && css`
         background-color: #b3d1ff;
         animation-duration: 0.5s;
         animation-name: ${fadeIn};
       `};
+      background-color: rgba(0, 0, 0, 0);
+      
     `;
 
 
