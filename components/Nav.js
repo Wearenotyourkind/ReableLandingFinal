@@ -1,7 +1,6 @@
-import React from 'react';
 import styled,{css, keyframes} from 'styled-components';
 import Link from 'next/link'
-import {useState, useEffect } from 'react';
+import React,{useState, useEffect } from 'react';
 import {Menu} from "antd";
 
 const fadeIn = keyframes`

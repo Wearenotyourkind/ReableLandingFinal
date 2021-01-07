@@ -1,6 +1,5 @@
 import React from "react";
 import styled from 'styled-components';
-import {Button, Col, Input, Row} from "antd";
 import EmailForm from "./EmailForm";
 
 const StyledDiv=styled.div`
